@@ -23,6 +23,8 @@ html {
   margin-right: 5px;
   display: inline-block;
   vertical-align: middle;
+  margin-top: -5px;
+  margin-bottom: -3px;
 }
 
 .info.legend span {
