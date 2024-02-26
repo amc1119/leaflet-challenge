@@ -86,6 +86,8 @@ d3.json(url).then(function(data) {
     for (let i = 0; i < grades.length; i++) {
       div.innerHTML +='<i style="background:' + colors[i] + '"></i> ' +
       grades[i] + (grades[i + 1] ? "&ndash;" + grades[i + 1] + '<br>' : '+');
+      // div.innerHTML += '<span class="color-box"></span>' +
+      // '<span class="legend-label">' + grades[i] + (grades[i + 1] ? "&ndash;" + grades[i + 1] + "<br>" : "+") + '</span>';
     }
 
     return div;
