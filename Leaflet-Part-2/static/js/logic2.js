@@ -120,7 +120,7 @@ let topoDarkMap = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.ne
   maxZoom: 17
 });
 
-// Adding the topoDarkMap tile layer
+// Adding the stamen_watercolorMap tile layer
 let stamen_watercolorMap = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
   maxZoom: 17
 });
